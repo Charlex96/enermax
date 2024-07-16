@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: url('/images/Fondo2.webp') center/cover repeat; /* Ajusta la ruta según la ubicación de tu imagen */
+    background: url('/images/Fondo2.png') center/cover repeat; /* Ajusta la ruta según la ubicación de tu imagen */
     background-size: auto; /* Esto puede ayudar a controlar el tamaño, ajusta según sea necesario */
 }
 
@@ -87,7 +87,7 @@ button:active {
 
 .section {
     /* border: 1px solid #ff0000; */
-    padding: 90px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     box-sizing: border-box;
 }
 
@@ -96,14 +96,14 @@ button:active {
     background: linear-gradient(133deg, rgba(0,54,196,0.08915441176470584) 0%, rgba(234,75,75,0.08915441176470584) 100%);
 }
 
-.biblioteca {
-    background: rgb(234,75,75);
-    background: linear-gradient(51deg, rgba(234,75,75,0.08915441176470584) 0%, rgba(0,54,196,0.08915441176470584) 100%);
-}
-
 .tecnico {
     background: rgb(0,54,196);
     background: linear-gradient(45deg, rgba(0,54,196,0.08915441176470584) 0%, rgba(234,75,75,0.08915441176470584) 100%);
+}
+
+.biblioteca {
+    background: rgb(234,75,75);
+    background: linear-gradient(51deg, rgba(234,75,75,0.08915441176470584) 0%, rgba(0,54,196,0.08915441176470584) 100%);
 }
 
 .capacitacion {
@@ -239,16 +239,109 @@ footer .links a:hover {
     text-decoration: underline;
 }
 
-/* Media query para pantallas pequeñas (móviles) */
-@media (max-width: 1450px) {
+/* ----------- Media query --------------*/
+
+@media (min-width: 1500px) {
+    .section {
+        padding: 90px 20px 20px 20px;
+    }
+    header h1 {
+        font-size: 40px;
+    }
     .central-image img {
-        width: 520px; /* Ajusta el tamaño según sea necesario */
+        width: 500px; /* Ajusta el tamaño según sea necesario */
         height: auto;
     }
 }
-@media (max-width: 1250px) {
+@media (max-width: 1500px) {
+    .section {
+        padding: 70px 20px 20px 20px;
+    }
+    header h1 {
+        font-size: 39px;
+    }
+    .central-image img {
+        width: 480px; /* Ajusta el tamaño según sea necesario */
+        height: auto;
+    }
+}
+@media (max-width: 1400px) {
+    .section {
+        padding: 50px 20px 20px 20px;
+    }
+    header h1 {
+        font-size: 38px;
+    }
     .central-image img {
         width: 450px; /* Ajusta el tamaño según sea necesario */
         height: auto;
     }
 }
+
+@media (max-width: 1300px) {
+    .section {
+        padding: 40px 20px 20px 20px;
+    }
+    header h1 {
+        font-size: 37px;
+    }
+    .central-image img {
+        width: 430px; /* Ajusta el tamaño según sea necesario */
+        height: auto;
+    }
+}
+
+@media (max-width: 1280px) {
+    /* .section {
+        padding: 39px 20px 20px 20px;
+    } */
+    header h1 {
+        font-size: 36px;
+    }
+    .central-image img {
+        width: 400px; /* Ajusta el tamaño según sea necesario */
+        height: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+   
+    header h1 {
+        font-size: 35px;
+    }
+    .central-image img {
+        width: 380px; /* Ajusta el tamaño según sea necesario */
+        height: auto;
+    }
+}
+
+@media (max-width: 1100px) {
+    .section {
+        padding: 25px 20px 20px 20px;
+    }
+    header h1 {
+        font-size: 35px;
+    }
+    .central-image img {
+        width: 340px; /* Ajusta el tamaño según sea necesario */
+        height: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    
+    header h1 {
+        font-size: 34px;
+    }
+    .central-image img {
+        width: 320px; /* Ajusta el tamaño según sea necesario */
+        height: auto;
+    }
+}
+
+
+
+
+
+
+

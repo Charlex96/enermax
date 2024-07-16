@@ -8,19 +8,19 @@ document.addEventListener('DOMContentLoaded', function() {
             newColor = 'blue';
             newTextLeft = 'HIDRO';
             newTextRight = 'ALTO';
-            newImageSrc = 'images/Turbina_azul.webp';
+            newImageSrc = 'images/Turbina_azul.png';
             colorState = 1;
         } else if (colorState === 1) {
             newColor = 'green';
             newTextLeft = 'HIDRO';
             newTextRight = 'RIENTE';
-            newImageSrc = 'images/Turbina_verde.webp';
+            newImageSrc = 'images/Turbina_verde.png';
             colorState = 2;
         } else {
             newColor = 'red';
             newTextLeft = 'ENER';
             newTextRight = 'MAX';
-            newImageSrc = 'images/Turbina_roja.webp';
+            newImageSrc = 'images/Turbina_roja.png';
             colorState = 0;
         }
 
