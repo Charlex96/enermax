@@ -345,3 +345,86 @@ footer .links a:hover {
 
 
 
+/* @media (max-height: 780px) {
+    .main {
+        gap: 0px;
+    }
+    h2 {
+        font-size: 20px;
+        margin: 8px 0 0 0;
+        padding: 0;
+    }
+} */
+@media (max-height: 800px) {
+    .main {
+        gap: 10px;
+    }
+    h2 {
+        font-size: 20px;
+        margin: 8px 0 0 0;
+        padding: 0;
+    }
+    .tecnico h2{
+        padding-top: 30px;
+    }
+    .capacitacion h2{
+        padding-top: 30px;
+    }
+    li{
+        font-size: 14px;
+    }
+    .section {
+        padding: 0px 20px 20px 0px;
+    }
+}
+
+@media (max-height: 900px) {
+    .tecnico h2{
+        padding-top: 30px;
+    }
+    .capacitacion h2{
+        padding-top: 30px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    li{
+        font-size: 15px;
+    }
+    .section {
+        padding: 0px 20px 20px 0px;
+    }
+}
+@media (max-height: 1000px) {
+    .tecnico h2{
+        padding-top: 30px;
+    }
+    .capacitacion h2{
+        padding-top: 30px;
+    }
+    .section {
+        padding: 5px 20px 20px 5px;
+    }
+}
+@media (max-height: 1100px) {
+    .section {
+        padding: 10px 20px 20px 10px;
+    }
+}
+/* @media (max-height: 1200px) {
+    .section {
+        padding: 15px 20px 20px 15px;
+    }
+}
+@media (max-height: 1300px) {
+    .section {
+        padding: 20px 20px 20px 20px;
+    }
+} */
+
+
+
+
+
+
+
